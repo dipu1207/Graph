@@ -1,0 +1,11 @@
+digraph G {
+"0(1,8)"->"1(2,5)"[label = Tree_Edge color= blue]
+"1(2,5)"->"0(1,8)"[label = back_edge color= black style=dashed]
+"1(2,5)"->"3(3,4)"[label = Tree_Edge color= blue]
+"3(3,4)"->"0(1,8)"[label = back_edge color= black style=dashed]
+"0(1,8)"->"2(6,7)"[label = Tree_Edge color= blue]
+"2(6,7)"->"1(2,5)"[label = cross_edge color= grey]
+"2(6,7)"->"3(3,4)"[label = cross_edge color= grey]
+"0(1,8)"->"3(3,4)"[label = forward_edge color= green ]
+
+}
